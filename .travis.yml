@@ -5,6 +5,4 @@ branches:
      only:
           - master
 before_script: ./build/scripts/setup_credentials.sh
-script: 
-  - chmod a+x build/scripts/*
-  - ./build/scripts/deploy.sh
+script: ./build/scripts/deploy.sh
