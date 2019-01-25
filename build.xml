@@ -1,8 +1,8 @@
 <project name="Salesforce CRM" default="test" basedir="." xmlns:sf="antlib:com.salesforce">
-    <taskdef uri="antlib:com.salesforce" resource="com/salesforce/antlib.xml" classpath="lib/ant-salesforce-44.jar"/> 
+    <taskdef uri="antlib:com.salesforce" resource="com/salesforce/antlib.xml" classpath="lib/ant-salesforce-44.jar"/>
 
     <property environment="env"/>
-    <property name="sf.username"      value="${SFDC_USERNAME}"/>
+    <property name="sf.username"      value="${SFDC_USERNAM}"/>
     <property name="sf.password"      value="${SFDC_PASSWORD}"/>
     <property name="sf.serverurl"     value="${env.SFURL}"/>
     <property name="sf.maxPoll"       value="500"/>
