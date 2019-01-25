@@ -2,7 +2,7 @@
 
 set -ev
 
-SOL_ROOT="$TRAVIS_BUILD_DIR/build/solenopsis/scripts"
+SOL_ROOT="./build/solenopsis/scripts"
 
 cd $SOL_ROOT
 ./bsolenopsis destructive-push
