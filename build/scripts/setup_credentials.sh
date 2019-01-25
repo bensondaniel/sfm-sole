@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SOL_SANDBOXNAME="bdprimary"
+SOL_SANDBOXNAME="Test"
 SOL_PROPFILE="$HOME/solenopsis.properties"
 SOL_HOMEDIR="$HOME/.solenopsis"
 SOL_CREDDIR="$SOL_HOMEDIR/credentials"
@@ -15,7 +15,9 @@ solenopsis.env.MASTER=local
 solenopsis.env.DEPENDENT=$SOL_SANDBOXNAME
 solenopsis.env.local.HOME=$SRC_DIR
 
-sf.antFile=$TRAVIS_BUILD_DIR/build/ant/ant-salesforce-44.jar
+sf.version = 44.0
+
+sf.antFile=$TRAVIS_BUILD_DIR/build/ant/ant-salesforce-v44.jar
 EOF
 
 mkdir -p $SOL_CREDDIR
