@@ -14,7 +14,7 @@
     <target name="test">
       <sf:deploy
           username       = "benson.daniel@ttc.com.bdprimary"
-          password       = "test$bd2019L9KKiDBHeVIUWmPG6D0qIpzuB"
+          password       = "test$bd2019EUa0rKgxRcVSaGX1fP5wgxzL"
           serverurl      = "${sf.serverurl}"
           deployRoot     = "src"
           singlePackage  = "true"
