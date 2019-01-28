@@ -20,7 +20,7 @@
           singlePackage  = "true"
           maxPoll        = "${sf.maxPoll}"
           pollWaitMillis = "${sf.maxWaitMillis}"
-          testLevel      = "${test.level}"
+          testLevel      = "NoTestRun"
           checkOnly      = "${check.only}"
           logType        = "${log.type}"
           ignoreWarnings = "true" />
