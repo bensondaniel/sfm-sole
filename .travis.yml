@@ -2,9 +2,8 @@ sudo: false
 os: trusty
 cache: false
 language: java
-env:
-  global:
-      - SFURL=https://test.salesforce.com
+env:  
+  - SFURL=https://test.salesforce.com
 before_install:
   - mkdir sfdx
 script: ant -Dtest.level=RunLocalTests test
