@@ -1,3 +1,6 @@
+sudo: false
+os: trusty
+cache: false
 language: java
 script: ant -Dtest.level=RunLocalTests test
 env:
