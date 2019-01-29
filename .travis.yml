@@ -7,6 +7,5 @@ env:
   global:
       - SFURL=https://test.salesforce.com
 before_install:
-  - openssl aes-256-cbc -K $encrypted_dc2793ba33be_key -iv $encrypted_dc2793ba33be_iv
-    -in assets/server.key.enc -out assets/server.key -d
+  - mkdir sfdx
 script: ant -Dtest.level=RunLocalTests test
