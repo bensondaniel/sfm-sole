@@ -3,7 +3,6 @@ os: trusty
 cache: false
 language: java
 env:
-  - URL=https://developer.salesforce.com/media/salesforce-cli/sfdx-linux-amd64.tar.xz
   global:
       - SFURL=https://test.salesforce.com
 before_install:
