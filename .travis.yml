@@ -4,6 +4,6 @@ cache: false
 language: java
 env:
   - URL=https://developer.salesforce.com/media/salesforce-cli/sfdx-linux-amd64.tar.xz
-before_install:
+before_install: 
   - mkdir sfdx
 script: ant -Dtest.level=RunLocalTests test
